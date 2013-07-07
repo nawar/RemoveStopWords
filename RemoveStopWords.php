@@ -34,9 +34,5 @@ class RemoveStopWords  {
 }
 
 
-/* usage */ 
-$as = new RemoveStopWords();
-$text = "Upload the pdf of your newspaper, magazine or catalog in order to have your branded digital replica"; 
-echo $as->remove_stop_words( $text ); 
 
 ?>
